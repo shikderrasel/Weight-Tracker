@@ -19,6 +19,7 @@ const addWeight = () => {
 		weight: weightInput.value,
 		date: new Date().getTime()
 	})
+	
 }
 
 watch(weights, (newWeights) => {
