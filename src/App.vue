@@ -8,7 +8,7 @@ const weightChartEl = ref(null)
 
 const weightChart = shallowRef(null)
 
-const weightInput = ref(0)
+const weightInput = ref('')
 
 const currentWeight = computed(() => {
 	return weights.value.sort((a, b) => b.date - a.date)[0] || { weight: 0 }
